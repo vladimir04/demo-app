@@ -1,0 +1,47 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "name": "Lunch @ Carnivaless",
+      "amount": 1032,
+      "date": "2019-07-25",
+      "category": "Food"
+    },
+    {
+      "name": "Yeah right",
+      "amount": 1234,
+      "category": "Food",
+      "date": "2019-07-26",
+      "id": 2
+    },
+    {
+      "name": "Electricity",
+      "amount": 1234,
+      "category": "Bills",
+      "date": "2018-07-26",
+      "id": 3
+    }
+  ],
+  "categories": {
+    "food": {
+      "name": "Food",
+      "description": "Food expenses",
+      "color": "green"
+    },
+    "bills": {
+      "name": "Bills",
+      "description": "House bills expenses",
+      "color": "red"
+    },
+    "fun": {
+      "name": "Fun",
+      "description": "Fun expenses",
+      "color": "blue"
+    },
+    "others": {
+      "name": "Others",
+      "description": "Other expenses",
+      "color": "black"
+    }
+  }
+}
